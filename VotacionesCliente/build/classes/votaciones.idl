@@ -1,0 +1,9 @@
+
+// votaciones.idl
+
+interface Login
+{
+	string login(in string user, in string password);
+	string registrar(in string nombre, in string paterno, in string materno, in string user, in string password);
+	void vote(in string user, in string candidato);
+};
